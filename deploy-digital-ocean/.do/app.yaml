@@ -11,7 +11,7 @@ services:
       - path: /
     envs:
       - key: ACTION_SERVER_URL
-        value: "${ACTION_SERVER_URL}"
+        value: "https://action-server-do-example2-d37pj.ondigitalocean.app"
       - key: ACTION_SERVER_KEY
-        value: "${ACTION_SERVER_KEY}"
+        value: "nicetomeetyou"
         type: SECRET
