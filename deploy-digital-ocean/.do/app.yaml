@@ -1,11 +1,11 @@
-name: action-server-do-example
+name: action-server-do-example2
 
 services:
   - name: action-server
     dockerfile_path: ./deploy-digital-ocean/docker/Dockerfile
     git:
       branch: master
-      repo_clone_url: https://github.com/robocorp/actions-cookbook.git
+      repo_clone_url: https://github.com/29decibel/actions-cookbook.git
     source_dir: deploy-digital-ocean
     routes:
       - path: /
