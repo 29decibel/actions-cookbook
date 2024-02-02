@@ -10,8 +10,8 @@ services:
     routes:
       - path: /
     envs:
-      - key: ACTION_SERVER_URL
+      - key: ENV_ACTION_SERVER_URL
         value: "${ACTION_SERVER_URL}"
-      - key: ACTION_SERVER_KEY
+      - key: ENV_ACTION_SERVER_KEY
         value: "${ACTION_SERVER_KEY}"
         type: SECRET
